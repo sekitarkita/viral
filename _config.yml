@@ -1,0 +1,19 @@
+title: "Sekitar Kita"
+description: "Sekitar Kita - Berita, informasi, dan update terkini dari sekitar kita"
+url: "https://sekitarkita.github.io"
+baseurl: "/viral"  # Jika ada di subfolder
+
+# Plugin
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-minifier
+  - jekyll-amp
+  - jekyll-compress-images
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
